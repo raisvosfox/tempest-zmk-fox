@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - MACRO
+  - ''
   - A
   - S
   - D
@@ -22,7 +22,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - MACRO
+  - ''
   - Z
   - X
   - C
@@ -40,36 +40,36 @@ layers:
   - ENTER
   - ⌫
   nav:
-  - MOUSE ←
-  - MOUSE ↓
-  - MOUSE ↑
-  - MOUSE →
-  - LClk
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - LClk
   - MOUSE ←
   - MOUSE ↓
   - MOUSE ↑
   - MOUSE →
   - {t: ▽, type: trans}
-  - ⌘
-  - ⎇
-  - ⇧
-  - ⌃
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
-  - MENU
+  - {t: '`', s: '~'}
   - ←
-  - ↓
   - ↑
+  - ↓
   - →
-  - {t: ▽, type: trans}
-  - BACK
-  - PG DN
-  - PG UP
-  - FORWARD
-  - ENTER
-  - BACK
-  - HOME
-  - PG DN
+  - ⌦
+  - '-'
+  - '='
   - PG UP
   - END
   - {t: ▽, type: trans}
