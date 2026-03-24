@@ -12,16 +12,16 @@ layers:
   - O
   - P
   - MACRO
-  - {t: A, h: ⌘}
-  - {t: S, h: ⎇}
-  - {t: D, h: ⇧}
-  - {t: F, h: ⌃}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: ⌃}
-  - {t: K, h: ⇧}
-  - {t: L, h: ⎇}
-  - {t: ;, h: ⌘, s: ':'}
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - MACRO
   - Z
   - X
@@ -33,12 +33,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
+  - ⎇
+  - ⎵
   - ⌃
-  - {t: ⎵, h: nav, s: _}
-  - {t: ↹, h: utility}
-  - {t: ⏎, h: number}
-  - {t: ⌫, h: symbol}
-  - {t: ⇧, h: sticky}
+  - nav
+  - ENTER
+  - ⌫
   nav:
   - MOUSE ←
   - MOUSE ↓
@@ -73,9 +73,9 @@ layers:
   - PG UP
   - END
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   symbol:
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   number:
   - F1
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   utility:
@@ -191,7 +191,7 @@ layers:
   - FORWARD
   - BT CLR
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LClk
   - RClk
@@ -230,8 +230,8 @@ layers:
   - Meh+/
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
