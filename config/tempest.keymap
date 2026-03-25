@@ -38,27 +38,19 @@
     };
 
     macros {
-        ctrlaltdelmacro: ctrlaltdelmacro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_ALT &kp DELETE>;
-            label = "CTRLALTDELMACRO";
-            wait-ms = <50>;
-        };
-
         winshiftsmacro: winshiftsmacro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&winshift &kp S>;
+            bindings = <&kp LS(LG(S))>;
             label = "WINSHIFTSMACRO";
             wait-ms = <50>;
         };
 
-        winshift: winshift {
+        ctrlaltdelmacro: ctrlaltdel {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp LSHFT>;
-            label = "WINSHIFT";
+            bindings = <&kp LC(LA(DEL))>;
+            label = "CTRLALTDEL";
         };
     };
 
