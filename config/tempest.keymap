@@ -40,15 +40,22 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LEFT_ALT &kp DELETE>;
             label = "CTRLALTDELMACRO";
-            tap-ms = <25>;
+            wait-ms = <50>;
         };
 
         winshiftsmacro: winshiftsmacro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LSHFT &kp S>;
+            bindings = <&winshift &kp S>;
             label = "WINSHIFTSMACRO";
-            tap-ms = <25>;
+            wait-ms = <50>;
+        };
+
+        winshift: winshift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp LSHFT>;
+            label = "WINSHIFT";
         };
     };
 
@@ -81,7 +88,7 @@
 
         symbol {
             bindings = <
-        &soft_off             &kp QUESTION      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PLUS      &kp DOLLAR      &kp GRAVE    &kp LS(PERCENT)           &kp LS(NUMBER_3)   &kp CARET
+        &soft_off             &kp LCTRL         &kp LEFT_ALT      &kp DEL            &kp PLUS      &kp DOLLAR      &kp GRAVE    &kp LS(PERCENT)           &kp LS(NUMBER_3)   &kp CARET
 &trans  &kp LESS_THAN         &kp GREATER_THAN  &none             &none              &kp MINUS     &kp EQUAL       &none        &none                     &kp DOUBLE_QUOTES  &kp LS(SEMICOLON)    &trans
         &kp NON_US_BACKSLASH  &kp SLASH         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTERISK  &kp UNDERSCORE  &kp AT_SIGN  &kp LS(NON_US_BACKSLASH)  &kp NON_US_HASH    &kp LS(NON_US_HASH)
                                                 &trans            &trans             &trans        &trans          &trans       &trans
