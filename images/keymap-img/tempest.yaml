@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  default:
+  qwerty:
   - Q
   - W
   - E
@@ -31,25 +31,25 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ., h: symbol, s: '>'}
   - /
   - ⎇
   - {t: ⎵, h: ⇧}
   - ⌃
-  - nav
+  - num+func
   - ENTER
   - ⌫
-  nav:
+  num+func:
   - F1
   - F2
   - F3
   - F4
   - F5
-  - LClk
-  - MOUSE ←
-  - MOUSE ↓
-  - MOUSE ↑
-  - MOUSE →
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -79,7 +79,7 @@ layers:
   - '['
   - ']'
   symbol:
-  - '!'
+  - '&soft_off'
   - '?'
   - '{'
   - '}'
@@ -109,7 +109,7 @@ layers:
   - _
   - '"'
   - '|'
-  - '#'
+  - {t: '#', type: held}
   - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
