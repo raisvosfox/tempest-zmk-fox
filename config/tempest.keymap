@@ -46,6 +46,7 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LEFT_ALT &kp DELETE>;
             label = "CTRLALTDELMACRO";
+            wait-ms = <15>;
         };
 
         winshiftsmacro: winshiftsmacro {
@@ -53,6 +54,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_WIN &kp LSHFT &kp S>;
             label = "WINSHIFTSMACRO";
+            wait-ms = <15>;
         };
     };
 
