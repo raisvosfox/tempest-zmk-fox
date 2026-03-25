@@ -12,12 +12,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&lt {
-    tapping-term-ms = <200>; // default 200
-    flavor = "balanced"; // or hold-preferred or tap-preferred
-    quick-tap-ms = <150>;
-};
-
 /*       0   1   2   3   4      ||    5   6   7   8   9 */
 /* {10}  11  12  13  14  15     ||    16  17  18  19  20  {21} */
 /*       22  23  24  25  26     ||    27  28  29  30  31 */
