@@ -34,7 +34,7 @@ layers:
   - {t: ., h: symbol, s: '>'}
   - /
   - ⎇
-  - {t: ⎵, h: ⇧}
+  - ⎵
   - ⌃
   - num+func
   - ENTER
@@ -241,3 +241,5 @@ combos:
   k: ↹
 - p: [26, 2]
   k: ⌘
+- p: [33, 36]
+  k: ⇧
