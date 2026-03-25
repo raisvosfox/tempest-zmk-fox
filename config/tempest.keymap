@@ -94,6 +94,22 @@
         };
     };
 
+    macros {
+        ctrlaltdelmacro: ctrlaltdelmacro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LEFT_ALT &kp DELETE>;
+            label = "CTRLALTDELMACRO";
+        };
+
+        winshiftsmacro: winshiftsmacro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LSHFT &kp S>;
+            label = "WINSHIFTSMACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -114,10 +130,10 @@
 
         num+func {
             bindings = <
-        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5     &kp F6        &kp F7            &kp F8             &kp F9            &kp F10
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6  &kp N7            &kp N8             &kp N9            &kp N0   &trans
-        &kp GRAVE     &kp LEFT      &kp UP_ARROW  &kp DOWN      &kp RIGHT  &kp DELETE    &kp MINUS         &kp EQUAL          &kp SINGLE_QUOTE  &kp END
-                                    &trans        &trans        &trans     &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5     &kp F6           &kp F7            &kp F8             &kp F9            &kp F10
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6     &kp N7            &kp N8             &kp N9            &kp N0            &trans
+        &kp GRAVE     &kp LEFT      &kp UP_ARROW  &kp DOWN      &kp RIGHT  &winshiftsmacro  &kp MINUS         &kp EQUAL          &kp SINGLE_QUOTE  &ctrlaltdelmacro
+                                    &trans        &trans        &trans     &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 

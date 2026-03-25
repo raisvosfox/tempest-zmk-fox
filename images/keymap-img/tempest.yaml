@@ -67,11 +67,11 @@ layers:
   - ↑
   - ↓
   - →
-  - ⌦
+  - '&winshiftsmacro'
   - '-'
   - '='
   - ''''
-  - END
+  - '&ctrlaltdelmacro'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
