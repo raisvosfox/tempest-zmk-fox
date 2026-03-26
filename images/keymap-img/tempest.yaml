@@ -32,11 +32,11 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., h: symbol, s: '>'}
-  - /
+  - ⇧
   - ⎇
   - ⎵
   - ⌃
-  - {t: number, h: num+func}
+  - num+func
   - ENTER
   - ⌫
   num+func:
@@ -70,7 +70,7 @@ layers:
   - '&winshiftsmacro'
   - '-'
   - '='
-  - ''''
+  - {t: /, s: '?'}
   - '&ctrlaltdelmacro'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   utility:
