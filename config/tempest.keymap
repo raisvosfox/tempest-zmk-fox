@@ -66,6 +66,17 @@
         };
     };
 
+    behaviors {
+        weirdshift: weirdshift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "WEIRDSHIFT";
+            bindings = <&mo>, <&sl>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -77,10 +88,10 @@
             //                               | CTL | SPC | TAB ||   || ENT | BKS | SFT  |
 
             bindings = <
-       &kp Q  &kp W  &kp E         &kp R      &kp T      &kp Y  &kp U      &kp I          &kp O      &kp P
-&none  &kp A  &kp S  &kp D         &kp F      &kp G      &kp H  &kp J      &kp K          &kp L      &mt SINGLE_QUOTE SEMICOLON  &none
-       &kp Z  &kp X  &kp C         &kp V      &kp B      &kp N  &kp M      &kp COMMA      &lt 2 DOT  &kp FSLH
-                     &kp LEFT_ALT  &kp SPACE  &kp LCTRL  &mo 1  &kp ENTER  &kp BACKSPACE
+       &kp Q        &kp W  &kp E         &kp R      &kp T      &kp Y   &kp U      &kp I          &kp O      &kp P
+&none  &kp A        &kp S  &kp D         &kp F      &kp G      &kp H   &kp J      &kp K          &kp L      &mt SINGLE_QUOTE SEMICOLON  &none
+       &mt LSHFT Z  &kp X  &kp C         &kp V      &kp B      &kp N   &kp M      &kp COMMA      &lt 2 DOT  &kp FSLH
+                           &kp LEFT_ALT  &kp SPACE  &kp LCTRL  &gresc  &kp ENTER  &kp BACKSPACE
             >;
         };
 

@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, h: '''', s: ':'}
   - ''
-  - Z
+  - {t: Z, h: ⇧}
   - X
   - C
   - V
@@ -36,7 +36,7 @@ layers:
   - ⎇
   - ⎵
   - ⌃
-  - num+func
+  - {t: ESC, s: '`'}
   - ENTER
   - ⌫
   num+func:
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   symbol:
