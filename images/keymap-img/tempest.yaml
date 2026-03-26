@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, h: '''', s: ':'}
   - ''
-  - {t: Z, h: ⇧}
+  - Z
   - X
   - C
   - V
@@ -140,7 +140,7 @@ layers:
   - ''
   - '0'
   - {t: ▽, type: trans}
-  - ⇧
+  - {t: ⇧, h: sticky}
   - {t: ▽, type: trans}
   - {t: ., s: '>'}
   - {t: ',', s: <}
