@@ -36,7 +36,7 @@ layers:
   - ⎇
   - ⎵
   - ⌃
-  - {t: ESC, s: '`'}
+  - {t: number, h: num+func}
   - ENTER
   - ⌫
   num+func:
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '['
   - ']'
   symbol:
@@ -140,7 +140,7 @@ layers:
   - ''
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⇧
   - {t: ▽, type: trans}
   - {t: ., s: '>'}
   - {t: ',', s: <}
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   utility:
