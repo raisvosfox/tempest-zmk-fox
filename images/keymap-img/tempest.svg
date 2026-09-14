@@ -388,6 +388,24 @@ path.combo {
 <rect rx="6" ry="6" x="454" y="217" width="28" height="26" class="combo"/>
 <text x="468" y="230" class="combo tap">⇧</text>
 </g>
+<g class="combo combopos-4">
+<path d="M204,145 l-94,35" class="combo"/>
+<path d="M204,145 l94,-35" class="combo"/>
+<rect rx="6" ry="6" x="190" y="132" width="28" height="26" class="combo"/>
+<text x="204" y="145" class="combo tap">NEXT</text>
+</g>
+<g class="combo combopos-5">
+<path d="M148,135 l-42,38" class="combo"/>
+<path d="M148,135 l42,-38" class="combo"/>
+<rect rx="6" ry="6" x="134" y="122" width="28" height="26" class="combo"/>
+<text x="148" y="135" class="combo tap">PREV</text>
+</g>
+<g class="combo combopos-6">
+<path d="M176,141 l-67,37" class="combo"/>
+<path d="M176,141 l67,-37" class="combo"/>
+<rect rx="6" ry="6" x="162" y="128" width="28" height="26" class="combo"/>
+<text x="176" y="141" class="combo tap">PP</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 349)" class="layer-num+func">

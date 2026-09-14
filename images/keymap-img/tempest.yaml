@@ -243,3 +243,12 @@ combos:
   k: ⌘
 - p: [33, 36]
   k: ⇧
+- p: [22, 15]
+  k: NEXT
+  l: [qwerty]
+- p: [22, 13]
+  k: PREV
+  l: [qwerty]
+- p: [22, 14]
+  k: PP
+  l: [qwerty]

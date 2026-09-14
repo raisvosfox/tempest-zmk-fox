@@ -47,6 +47,24 @@
             bindings = <&kp LSHFT>;
             key-positions = <33 36>;
         };
+
+        zgnextsong {
+            bindings = <&kp K_NEXT>;
+            key-positions = <22 15>;
+            layers = <0>;
+        };
+
+        zdprevsong {
+            bindings = <&kp K_PREV>;
+            key-positions = <22 13>;
+            layers = <0>;
+        };
+
+        zfplypse {
+            bindings = <&kp K_PP>;
+            key-positions = <22 14>;
+            layers = <0>;
+        };
     };
 
     macros {
