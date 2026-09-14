@@ -73,7 +73,7 @@ layers:
   - {t: /, s: '?'}
   - '&ctrlaltdelmacro'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {type: held}
   - '['

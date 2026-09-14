@@ -97,10 +97,10 @@
 
         num+func {
             bindings = <
-        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5     &kp F6           &kp F7            &kp F8             &kp F9     &kp F10
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6     &kp N7            &kp N8             &kp N9     &kp N0            &trans
-        &kp GRAVE     &kp LEFT      &kp UP_ARROW  &kp DOWN      &kp RIGHT  &winshiftsmacro  &kp MINUS         &kp EQUAL          &kp SLASH  &ctrlaltdelmacro
-                                    &trans        &trans        &trans     &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+        &kp F1        &kp F2        &kp F3        &kp F4          &kp F5     &kp F6           &kp F7            &kp F8             &kp F9     &kp F10
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5     &kp NUMBER_6     &kp N7            &kp N8             &kp N9     &kp N0            &trans
+        &kp GRAVE     &kp LEFT      &kp UP_ARROW  &kp DOWN        &kp RIGHT  &winshiftsmacro  &kp MINUS         &kp EQUAL          &kp SLASH  &ctrlaltdelmacro
+                                    &trans        &bt BT_CLR_ALL  &trans     &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
