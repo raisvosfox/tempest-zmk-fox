@@ -392,7 +392,7 @@ path.combo {
 <path d="M204,145 l-94,35" class="combo"/>
 <path d="M204,145 l94,-35" class="combo"/>
 <rect rx="6" ry="6" x="190" y="132" width="28" height="26" class="combo"/>
-<text x="204" y="145" class="combo tap">NEXT</text>
+<text x="204" y="145" class="combo tap">⏭</text>
 </g>
 <g class="combo combopos-5">
 <path d="M148,135 l-42,38" class="combo"/>

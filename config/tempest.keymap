@@ -49,19 +49,19 @@
         };
 
         zgnextsong {
-            bindings = <&kp K_NEXT>;
+            bindings = <&kp C_NEXT>;
             key-positions = <22 15>;
             layers = <0>;
         };
 
         zdprevsong {
-            bindings = <&kp K_PREV>;
+            bindings = <&kp C_PREV>;
             key-positions = <22 13>;
             layers = <0>;
         };
 
         zfplypse {
-            bindings = <&kp K_PP>;
+            bindings = <&kp C_PP>;
             key-positions = <22 14>;
             layers = <0>;
         };

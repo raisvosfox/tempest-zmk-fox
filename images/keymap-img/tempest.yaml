@@ -244,7 +244,7 @@ combos:
 - p: [33, 36]
   k: ⇧
 - p: [22, 15]
-  k: NEXT
+  k: ⏭
   l: [qwerty]
 - p: [22, 13]
   k: PREV
